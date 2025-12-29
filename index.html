@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bharat Budget - Ground Real Travel Plans</title>
+    <meta name="description" content="Discover real, ground-level budget travel plans across India. Practical methods, hostel stays, and local food guides for students and budget travelers.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Outfit:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">Bharat <span>Budget</span></div>
+            <ul class="nav-links">
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="#about">Our Method</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h1 class="reveal-text">Real India. <br>Real Budget.</h1>
+                <p class="fade-in">Ground-level travel guides built from actual experiences. No luxury traps, just the authentic way to see India on a student budget.</p>
+                <a href="#destinations" class="cta-button">Explore Destinations</a>
+            </div>
+        </section>
+
+        <section id="destinations" class="destinations">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Choose Your Next Adventure</h2>
+                    <p>Click a card to see the full budget breakdown.</p>
+                </div>
+                <div id="destinations-grid" class="destinations-grid">
+                    <!-- Cards will be injected by JS -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="budget-modal" class="modal">
+        <div class="modal-content glass">
+            <span class="close-modal">&times;</span>
+            <div id="modal-body">
+                <!-- Detailed budget info will be injected here -->
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Bharat Budget. Real Experience. Real Prices.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
